@@ -1,0 +1,19 @@
+{
+  "name": "2026_portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:main": "vite --config Main_page/vite.config.js",
+    "dev:crypto": "vite --config Crypto_tracker/vite.config.js",
+    "dev:all": "concurrently \"npm run dev:main\" \"npm run dev:crypto\""
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^9.2.1",
+    "vite": "^8.0.5"
+  }
+}
